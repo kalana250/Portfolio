@@ -17,6 +17,7 @@ body {
 .navbar-left {
     font-size: 24px;
     font-weight: bold;
+    cursor: default;
 }
 
 .navbar-center a {
@@ -103,7 +104,7 @@ body {
 
 }
 .social-icons i{
-    color: #9ce2d5;
+    color: #47dfc3;
     text-shadow: #00FFD1;
     font-size: 25px;
     margin: 0 10px;
@@ -877,3 +878,14 @@ footer {
 .dark-mode footer {
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    /* Styles for screens up to 600px wide (e.g., smartphones) */
+  }
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for screens between 601px and 1024px wide (e.g., tablets) */
+  }
+  @media only screen and (min-width: 1025px) {
+    /* Styles for screens wider than 1025px (e.g., laptops and desktops) */
+  }
+  
