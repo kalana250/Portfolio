@@ -16,8 +16,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    function isMobile() {
+        return /Mobi|Android/i.test(navigator.userAgent);
+    }
 
-
+    if (isMobile()) {
+        document.getElementById('mobile-message').classList.remove('hidden');
+    }
+});
 
 
 const form = document.getElementById('form');
