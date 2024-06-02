@@ -6,6 +6,22 @@ body {
     transition: background-color 0.5s, color 0.5s;
 }
 
+#mobile-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
+
 .main-navbar {
     display: flex;
     justify-content: space-between;
