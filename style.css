@@ -487,8 +487,11 @@ body {
 .progress-line .javascript {
     width: 75%;
   }
+.progress-line .typescript {
+    width: 75%;
+  }
 .progress-line .angular {
-    width: 70%;
+    width: 80%;
   }
 
   .progress-line .react {
@@ -549,8 +552,11 @@ body {
 .progress-line .javascript::after {
     content: "75%";
   }
+.progress-line .typescript::after {
+    content: "75%";
+  }
 .progress-line .angular::after {
-    content: "70%";
+    content: "80%";
   }
 
   .progress-line .react::after {
