@@ -596,6 +596,7 @@ body {
 }
   .tools-bar {
     background-color: black;
+    overflow: hidden;
     
   }
   .img1{
@@ -609,7 +610,7 @@ body {
 }
 
 .hover-image1:hover {
-    transform: scale(1.1); 
+    transform: scale(1.2); 
 }
 .services{
     margin-top: 1250px;
