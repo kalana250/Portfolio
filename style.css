@@ -393,7 +393,7 @@ body {
 
 .skills {
     margin-left: 650px;
-    margin-top: 650px ;
+    margin-top:700px ;
     position: absolute;
     transform: translate(-50%, -50%);
   }
@@ -583,6 +583,24 @@ body {
           width: 100%;
       }
   }  
+ .tools{
+    margin-left: 650px;
+    margin-top: 100px ;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  .tools h1{
+    text-align: center;
+    cursor: default;
+
+}
+  .tools-bar {
+    background-color: black;
+    
+  }
+  .img1{
+    margin-right: 30px;
+  }
   
 .services{
     margin-top: 1250px;
