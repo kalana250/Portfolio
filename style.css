@@ -600,8 +600,17 @@ body {
   }
   .img1{
     margin-right: 30px;
+    cursor: pointer;
+      
   }
-  
+  .hover-image1{
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hover-image1:hover {
+    transform: scale(1.1); 
+}
 .services{
     margin-top: 1250px;
     margin-left: 200px;
