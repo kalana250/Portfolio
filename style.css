@@ -728,7 +728,9 @@ body {
     }
 }
 
-
+.portfolio{
+    margin-bottom: 250px;
+}
 .portfolio h1 {
     color: white;
     font-size: 28px;
