@@ -389,7 +389,10 @@ body {
     }
 }
 
-
+.topic{
+    text-align: center;
+    cursor: default;
+}
 
 .skills {
     margin-left: 650px;
