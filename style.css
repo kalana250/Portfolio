@@ -613,7 +613,7 @@ body {
     transform: scale(1.2); 
 }
 .services{
-    margin-top: 2250px;
+    margin-top: 1750px;
     margin-left: 200px;
     margin-right: 30px;
     animation: pulse 2s ease-in-out infinite alternate;
