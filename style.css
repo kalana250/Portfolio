@@ -62,7 +62,7 @@ body {
 
 .side-navbar {
     background-color: black;
-    height: 70%;
+    height: 60%;
     position: fixed;
     left: 0;
     top: 60px;
@@ -162,7 +162,7 @@ body {
     border-radius: 30px;
     width: 38%;
     height: 30%;
-    animation: slideIn 3s ease-out infinite;
+    animation: slideIn 60s ease-out infinite;
 }
 
 @keyframes fadeIn {
