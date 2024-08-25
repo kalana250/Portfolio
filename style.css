@@ -162,7 +162,7 @@ body {
     border-radius: 30px;
     width: 38%;
     height: 30%;
-    animation: slideIn 30s ease-out infinite;
+    animation: slideIn 10s ease-out infinite;
 }
 
 @keyframes fadeIn {
