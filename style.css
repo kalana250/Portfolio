@@ -477,7 +477,7 @@ body {
     width: 95%;
   }
 .progress-line .spring-boot {
-    width: 70%;
+    width: 80%;
   }
 .progress-line .python {
     width: 85%;
@@ -547,7 +547,7 @@ body {
     content: "95%";
   }
 .progress-line .spring-boot::after {
-    content: "70%";
+    content: "80%";
   }
 .progress-line .python::after {
     content: "85%";
