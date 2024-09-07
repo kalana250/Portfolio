@@ -88,17 +88,3 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
     window.location.href = mailtoLink;
 });
-window.addEventListener("load", () => {
-    const roles = ["I'm a software engineer", "I'm a full stack developer"];
-    let textElement = document.getElementById("text");
-
-    function toggleText() {
-        textElement.innerText = roles[0];
-        setTimeout(() => {
-            textElement.innerText = roles[1];
-        }, 2000);  // 2 seconds delay before switching
-    }
-
-    toggleText();
-    setInterval(toggleText, 4000);  // Repeat every 4 seconds
-});
