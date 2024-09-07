@@ -125,16 +125,7 @@ body {
   border-right: 2px solid #333;
 }
 
-#first-part {
-  width: 0;
-  animation: typing 3.5s steps(30, end), blink 0.75s step-end infinite;
-}
 
-#second-part {
-  width: 0;
-  animation: typing 4.5s steps(40, end) 4s forwards, blink 0.75s step-end infinite;
-  border-right: none;
-}
 .social-icons i{
     color: #47dfc3;
     text-shadow: #00FFD1;
@@ -190,14 +181,7 @@ body {
     from { transform: translateX(100%); }
     to { transform: translateX(0); }
 }
-@keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
-}
 
-@keyframes blink {
-  50% { border-color: transparent; }
-}
 .dark-mode {
     background-color: #fff;
     color: #000;
