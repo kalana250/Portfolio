@@ -117,12 +117,23 @@ body {
     margin-top: 10px;
     cursor: default;
 }
-.typewriter {
-  border-right: 0.1em solid black; /* Cursor */
+.typewriter h1 {
+  color: #333;
+  font-size: 24px;
   white-space: nowrap;
   overflow: hidden;
-  display: inline-block;
-  animation: blink-caret 0.75s step-end infinite;
+  border-right: 2px solid #333;
+}
+
+#first-part {
+  width: 0;
+  animation: typing 3.5s steps(30, end), blink 0.75s step-end infinite;
+}
+
+#second-part {
+  width: 0;
+  animation: typing 4.5s steps(40, end) 4s forwards, blink 0.75s step-end infinite;
+  border-right: none;
 }
 .social-icons i{
     color: #47dfc3;
@@ -179,11 +190,14 @@ body {
     from { transform: translateX(100%); }
     to { transform: translateX(0); }
 }
-@keyframes blink-caret {
-  from, to { border-color: transparent; }
-  50% { border-color: black; }
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
 }
 
+@keyframes blink {
+  50% { border-color: transparent; }
+}
 .dark-mode {
     background-color: #fff;
     color: #000;
