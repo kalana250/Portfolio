@@ -105,19 +105,17 @@ body {
     min-width: 250px;
 }
 
-.main-section h2 {
-    font-size: 36px;
-    margin-top: 10px;
-    animation: fadeIn 20s ease-out infinite;
-    cursor: default;
-}
 .main-section h1 {
     font-size: 38px;
     color: #00FFD1;
     margin-top: -5px;
     animation: fadeIn 20s ease-out infinite ;
     cursor: default;
-
+}
+.main-section h2 {
+    font-size: 36px;
+    margin-top: 10px;
+    cursor: default;
 }
 .typewriter {
   border-right: 0.1em solid black; /* Cursor */
