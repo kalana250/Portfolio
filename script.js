@@ -26,6 +26,39 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+const texts = ["Software Engineer", "Full Stack Developer"];
+let index = 0;
+let charIndex = 0;
+let isAdding = true;
+let currentText = texts[index];
+
+function typeWriter() {
+    const element = document.querySelector(".typewriter");
+    if (isAdding) {
+        if (charIndex < currentText.length) {
+            element.innerHTML += currentText.charAt(charIndex);
+            charIndex++;
+            setTimeout(typeWriter, 100);
+        } else {
+            isAdding = false;
+            setTimeout(typeWriter, 1000);
+        }
+    } else {
+        if (charIndex > 0) {
+            element.innerHTML = currentText.substring(0, charIndex - 1);
+            charIndex--;
+            setTimeout(typeWriter, 100);
+        } else {
+            isAdding = true;
+            index = (index + 1) % texts.length;
+            currentText = texts[index];
+            setTimeout(typeWriter, 1000);
+        }
+    }
+}
+
+typeWriter();
+
 
 const form = document.getElementById('form');
 const result = document.getElementById('result');
