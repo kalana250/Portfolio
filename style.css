@@ -64,7 +64,7 @@ body {
     overflow: hidden;
     animation: typewriter 2s steps(13) infinite alternate,
     blink 800ms steps(13) infinite normal;
-    border-right: 5px solid black;
+    border-right: 5px solid white;
 }
 
 @keyframes typewriter {
