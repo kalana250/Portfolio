@@ -59,6 +59,23 @@ body {
     height: calc(100vh - 60px);
     padding: 20px;
 }
+.position{
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(13) infinite alternate,
+    blink 800ms steps(13) infinite normal;
+    border-right: 5px solid black;
+}
+
+@keyframes typewriter {
+    from { width: 0%; }
+    to { width: 50%; }
+}
+
+@keyframes blink {
+    from { border-color: black; }
+    to { border-color: transparent; }
+}
 
 .side-navbar {
     background-color: black;
