@@ -420,7 +420,7 @@ body {
 
 .skills {
     margin-left: 650px;
-    margin-top:1000px ;
+    margin-top:1300px ;
     position: absolute;
     transform: translate(-50%, -50%);
   }
@@ -646,7 +646,7 @@ body {
     transform: scale(1.2); 
 }
 .services{
-    margin-top: 2000px;
+    margin-top: 2500px;
     margin-left: 200px;
     margin-right: 30px;
     animation: pulse 2s ease-in-out infinite alternate;
