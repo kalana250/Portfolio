@@ -842,6 +842,7 @@ body {
     color: white;
     margin: .3rem 0 1rem;
     font-weight: bold;
+    cursor: default;
 }
 
 .portfolio-lay p {
@@ -849,6 +850,7 @@ body {
     color: white;
     font-weight: bold;
     text-align: left;
+    cursor: default;
 }
 
 .portfolio-lay a {
